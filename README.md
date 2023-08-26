@@ -1,2 +1,2 @@
 # Café Starbuzz ☕
-O site do Café Starbuzz foi o primeiro site que eu fiz, no início não tinha responsividade e continha linhas de códigos desnecessárias, ao decidir transformar ele em um repositório eu modifiquei o código para ficar mais agradável.
+O site do Café Starbuzz foi o primeiro site que eu fiz, ele foi retirado de um exercício de um livro que ensinava sobre a criação de páginas web. Decidi melhorar ele para colocá-lo no meu GitHub adicionando responsividade e mudando algumas linhas para ficar mais agradável.

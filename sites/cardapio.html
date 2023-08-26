@@ -6,144 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cardápio</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" type="image/jpg" href="../imagens/icon.png">
+    <script src="../script.js"></script>
 </head>
 <body>
-
-    <div class="sidebar">
-        <br>
-        <div class="menu"><a href="../sites/index.html"><img src="../imagens/icon.png" height="85%" width="85%"></a></div>
-        <br>
-        <a href="../sites/nossa_historia.html">Nossa História</a>
-        <br>
-        <a href="#">Cardápio</a>
-        <br>
-        <a href="../sites/novidades.html">Novidades</a>
-    </div>
-
-    <div class="conteudo" style="height: 20%;">
-        <div class="titulo">
-            <h1>CARDÁPIO</h1>
-            <img src="../imagens/vinha.png" width="80%" height="60%">
-            <h4>
-                Em breve criaremos novos cafés e aceitamos sugestões dos nossos clientes!
-            <br>
-                Nós orgulhosamente serviremos elixires fermentados por nossos amigos do <span style="color: crimson;">Bar Use a Cabeça</span>.
-            </h4>
+    <nav>
+        <div class="menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
         </div>
-
-    </div>
-
-
-    <div class="esquerda">
-
-        <p><img src="../imagens/cafe_leite.png"></p>
-        <div class="nome">Café com Leite</div>
-        <div class="preço">R$ 5,00</div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p><img src="../imagens/cafe_expresso.png"></p>
-        <div class="nome">Café Expresso</div>
-        <div class="preço">R$ 2,00</div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p><img src="../imagens/em_breve2.png"></p>
-        <div class="nome">Em Breve</div>
-        <div class="preço">Em Breve</div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p><img src="../imagens/cha_verde.png"></p>
-        <div class="nome">Chá Verde Cooler</div>
-        <div class="preço">R$ 2,99</div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p><img src="../imagens/elixir_felicidade.png"></p>
-        <div class="nome">Elixir da Felicidade</div>
-        <div class="preço">R$ 2,99</div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p><img src="../imagens/resfriamento.png"></p>
-        <div class="nome">Chá de Resfriamento</div>
-        <div class="preço">R$ 2,99</div>
-        
-    </div>
-
-    <div class="direita">
-
-        <p><img src="../imagens/cappuccino.png"></p>
-        <div class="nome">Cappuccino</div>
-        <div class="preço">R$ 6,50</div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p><img src="../imagens/em_breve.png"></p>
-        <div class="nome">Em Breve</div>
-        <div class="preço">Em Breve</div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p><img src="../imagens/framboesa.png"></p>
-        <div class="nome">Framboesa Geladinha</div>
-        <div class="preço">R$ 2,99</div>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p><img src="../imagens/oxicoco.png"></p>
-        <div class="nome">Explosão Anti-Oxidante de Oxicoco</div>
-        <div class="preço">R$ 2,99</div>        
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p><img src="../imagens/bebida_negra.png"></p>
-        <div class="nome">Bebida Negra do Cérebro</div>
-        <div class="preço">R$ 2,99</div>        
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p><img src="../imagens/brisa.png"></p>
-        <div class="nome">Brisa de Limão</div>
-        <div class="preço">R$ 2,99</div>
-
-    </div>
-
-    <div class="espaço">a
-    </div>
-
+        <div class="itens">
+            <a href="../sites/index.html">Início</a>
+            <a href="../sites/nossa_historia.html">Nossa História</a>
+            <a href="#">Cardápio</a>
+            <a href="../sites/novidades.html">Novidades</a>
+        </div>
+        <div class="overlay"></div>
+    </nav>
+    <header>
+        <h1>CARDÁPIO</h1>
+        <div class="vinha"><img src="../imagens/vinha.png"></div>
+        <p>
+            Em breve criaremos novos cafés e aceitamos sugestões dos nossos clientes!
+            Nós orgulhosamente serviremos elixires fermentados por nossos amigos do <span style="color: crimson; font-weight: bold;">Bar Use a Cabeça</span>.
+        </p>
+    </header>
+    <main>
+        <div class="produto">
+            <p>Café com Leite</p>
+            <img src="../imagens/cafe_leite.jpg" alt="Café com Leite">
+            <p class="preço">R$ 5,00</p>
+        </div>
+        <div class="produto">
+            <p>Cappuccino</p>
+            <img src="../imagens/cappuccino.jpg" alt="Cappuccino">
+            <p class="preço">R$ 5,00</p>
+        </div>
+        <div class="produto">
+            <p>Café Expresso</p>
+            <img src="../imagens/cafe_expresso.jpg" alt="Café Expresso">
+            <p class="preço">R$ 5,00</p>
+        </div>
+        <div class="produto">
+            <p>Café Mocha</p>
+            <img src="../imagens/cafe_mocha.jpg" alt="Café Mocha">
+            <p class="preço">R$ 5,00</p>
+        </div>
+        <h1 style="color: crimson;">Bar Use a Cabeça</h1>
+        <div class="produto">
+            <p>Chá Verde</p>
+            <img src="../imagens/cha_verde.jpg" alt="Chá Verde">
+            <p class="preço">R$ 5,00</p>
+        </div>
+        <div class="produto">
+            <p>Framboesa Geladinha</p>
+            <img src="../imagens/framboesa.jpg" alt="Framboesa Geladinha">
+            <p class="preço">R$ 5,00</p>
+        </div>
+        <div class="produto">
+            <p>Elixir da Felicidade</p>
+            <img src="../imagens/elixir_felicidade.jpg" alt="Elixir da Felicidade">
+            <p class="preço">R$ 5,00</p>
+        </div>
+        <div class="produto">
+            <p>Explosão de Oxicoco</p>
+            <img src="../imagens/oxicoco.jpg" alt="Explosão de Oxicoco">
+            <p class="preço">R$ 5,00</p>
+        </div>
+        <div class="produto">
+            <p>Chá de Resfriamento</p>
+            <img src="../imagens/resfriamento.jpg" alt="Chá de Resfriamento">
+            <p class="preço">R$ 5,00</p>
+        </div>
+        <div class="produto">
+            <p>Bebida Negra do Cérebro</p>
+            <img src="../imagens/bebida_negra.jpg" alt="Bebida Negra do Cérebro">
+            <p class="preço">R$ 5,00</p>
+        </div>
+        <div class="produto">
+            <p>Brisa de Limão</p>
+            <img src="../imagens/Brisa.jpg" alt="Brisa de Limão">
+            <p class="preço">R$ 5,00</p>
+        </div>
+    </main>
 </body>
 </html>

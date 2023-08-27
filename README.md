@@ -1,2 +1,2 @@
-# Cafe
- Site de um café
+# Café Starbuzz ☕
+O site do Café Starbuzz foi o primeiro site que eu fiz, ele foi retirado de um exercício de um livro que ensinava sobre a criação de páginas web. Decidi melhorar ele para colocá-lo no meu GitHub adicionando responsividade e mudando algumas linhas para ficar mais agradável.
